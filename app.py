@@ -4,9 +4,6 @@ from datetime import datetime
 from flask import Flask, render_template, request, redirect, session, make_response, send_file, jsonify
 from mysql.connector import connect
 from flask_mail import Mail, Message
-import random
-import string
-import re
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
